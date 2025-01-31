@@ -1,0 +1,759 @@
+(kicad_sch
+	(version 20241209)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "92c20f51-e4c7-4820-8b31-cd4b13901a01")
+	(paper "A4")
+	(title_block
+		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
+		(rev "A")
+		(company "Open Ephys, Inc.")
+		(comment 1 "Jonathan P. Newman")
+	)
+	(lib_symbols
+		(symbol "open-ephys:OEPS-SN"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Serial Number Sticker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OEPS-SN_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "OEPS-SN_1_1"
+				(text "SN"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2 2)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus
+		(pts
+			(xy 157.48 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a8d497-7fcb-4e8a-8c83-1abf887994ed")
+	)
+	(bus
+		(pts
+			(xy 157.48 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ad5b36-a018-4084-aab6-bcb3492a32fb")
+	)
+	(bus
+		(pts
+			(xy 157.48 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fd7bec-ea5c-46dd-91d0-13ea4c64a4f4")
+	)
+	(bus
+		(pts
+			(xy 157.48 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa6f1be-c9ae-48f5-b20a-a5f1bd538074")
+	)
+	(bus
+		(pts
+			(xy 157.48 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdaf1c4-93d0-4073-90cb-02d855eb5568")
+	)
+	(bus
+		(pts
+			(xy 157.48 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580a61d7-49e8-4395-a681-ce44063d76f7")
+	)
+	(bus
+		(pts
+			(xy 157.48 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2e595c-c987-4652-8d1a-f763bfb706c9")
+	)
+	(bus
+		(pts
+			(xy 157.48 93.98) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8424cc-c2bd-47af-9bb4-40b64d91b0fd")
+	)
+	(bus
+		(pts
+			(xy 157.48 101.6) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e56f549-3bdf-444f-b4c1-ff1b20609c0e")
+	)
+	(bus
+		(pts
+			(xy 157.48 91.44) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f8d0c9-bcc9-4d40-b036-c32f2427969f")
+	)
+	(bus
+		(pts
+			(xy 157.48 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4078f1-115f-4915-ab6a-2f60fbb5abd8")
+	)
+	(bus
+		(pts
+			(xy 157.48 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9740ae2f-c01e-4ff7-bb42-1a713fd9fdbc")
+	)
+	(bus
+		(pts
+			(xy 157.48 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b4e909-e38f-457e-9b33-22fcd2bd3539")
+	)
+	(bus
+		(pts
+			(xy 157.48 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7d1b10-9649-45e8-ae4a-a1915ed2543a")
+	)
+	(bus
+		(pts
+			(xy 157.48 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c726f8fc-74a6-4d8d-9454-738f0579c596")
+	)
+	(bus
+		(pts
+			(xy 157.48 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d7d82f-ed87-4b23-b137-96042c3400cb")
+	)
+	(symbol
+		(lib_id "open-ephys:OEPS-SN")
+		(at 156.21 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ceed477-5487-4517-a74f-1b9df6cb5344")
+		(property "Reference" "H1"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "open-ephys:OEPS_SN-STICKER-8x20mm"
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet1" ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ephys-test-module-64"
+				(path "/92c20f51-e4c7-4820-8b31-cd4b13901a01"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 68.58)
+		(size 39.37 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1ebfc8d-2966-428b-887c-7237de59cbe3")
+		(property "Sheetname" "Headstage Interface"
+			(at 157.48 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "headstage-interface.kicad_sch"
+			(at 157.48 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B12{TRODES}" input
+			(at 157.48 104.14 180)
+			(uuid "19e21be7-1109-4766-bedd-36160970a746")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B13{TRODES}" input
+			(at 157.48 106.68 180)
+			(uuid "e5f6b49e-121b-41dc-a864-0a5d31e5728d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B8{TRODES}" input
+			(at 157.48 93.98 180)
+			(uuid "9a678a02-adfb-4c02-b10d-e0d46f51216e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B9{TRODES}" input
+			(at 157.48 96.52 180)
+			(uuid "1a25862a-36a4-4d52-b162-bb08424749c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B4{TRODES}" input
+			(at 157.48 83.82 180)
+			(uuid "8a162036-66ab-43cb-8de8-6547ef083285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B5{TRODES}" input
+			(at 157.48 86.36 180)
+			(uuid "c87599c8-72ce-44dc-b7f1-abcbee877e52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B0{TRODES}" input
+			(at 157.48 73.66 180)
+			(uuid "b946c387-a25e-4dd2-ba8e-cbee95d85ecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B1{TRODES}" input
+			(at 157.48 76.2 180)
+			(uuid "d3191213-1653-4ada-827d-c0779ea7e409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B2{TRODES}" input
+			(at 157.48 78.74 180)
+			(uuid "b2931f06-f4b9-4422-9c72-03d3fcb86b7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B3{TRODES}" input
+			(at 157.48 81.28 180)
+			(uuid "59b3e993-d4df-4bdd-95d2-6ef7dc0318ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B7{TRODES}" input
+			(at 157.48 91.44 180)
+			(uuid "fad8167a-8aab-42cb-9d49-004bbcaf2663")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B6{TRODES}" input
+			(at 157.48 88.9 180)
+			(uuid "4fd42cb7-1fed-4c09-9979-78e647982978")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B10{TRODES}" input
+			(at 157.48 99.06 180)
+			(uuid "34903f30-f25d-45a3-8769-fcfecd124243")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B11{TRODES}" input
+			(at 157.48 101.6 180)
+			(uuid "05346ff7-1f59-4723-a750-c0dd52123980")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B14{TRODES}" input
+			(at 157.48 109.22 180)
+			(uuid "c5945cad-8671-4fb6-8fae-c60446fe1192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B15{TRODES}" input
+			(at 157.48 111.76 180)
+			(uuid "85b762b0-d26e-41c1-93ff-4e63fa18f588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ephys-test-module-64"
+				(path "/92c20f51-e4c7-4820-8b31-cd4b13901a01"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 68.58)
+		(size 39.37 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e43c68be-319e-4e0b-b734-084821eb03fc")
+		(property "Sheetname" "Test Signal Interface"
+			(at 82.55 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test-signal-interface.kicad_sch"
+			(at 82.55 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B0{TRODES}" output
+			(at 121.92 73.66 0)
+			(uuid "fc6e909a-0628-4d65-94f3-4509175f8fb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B2{TRODES}" output
+			(at 121.92 78.74 0)
+			(uuid "cdf313ee-5c0b-40e3-b8a0-6f8901a30801")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B5{TRODES}" output
+			(at 121.92 86.36 0)
+			(uuid "6a5f8e4a-4bbb-464e-811d-cbfbe670a936")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B4{TRODES}" output
+			(at 121.92 83.82 0)
+			(uuid "daeb305a-017a-4d67-bd43-c18ef17c8a96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B1{TRODES}" output
+			(at 121.92 76.2 0)
+			(uuid "82777c1a-e6d4-47b2-92a4-1ced9bdf9154")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B3{TRODES}" output
+			(at 121.92 81.28 0)
+			(uuid "c036cafb-705b-45b7-9500-28d06c6821da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B6{TRODES}" output
+			(at 121.92 88.9 0)
+			(uuid "9d01f1ab-8e8c-447e-b617-4be3682f44ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B7{TRODES}" output
+			(at 121.92 91.44 0)
+			(uuid "aa5431bf-01e7-46c0-b340-b4826cd1cc86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B9{TRODES}" output
+			(at 121.92 96.52 0)
+			(uuid "ed1acd03-dda6-491c-99f6-4e3e331bde86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B8{TRODES}" output
+			(at 121.92 93.98 0)
+			(uuid "34dae4de-befd-4a12-acd8-c69d6f50f866")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B10{TRODES}" output
+			(at 121.92 99.06 0)
+			(uuid "bc22fee6-1be2-4249-bcbe-5692806feda1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B11{TRODES}" output
+			(at 121.92 101.6 0)
+			(uuid "c91d8da7-0a76-430a-9de9-89e3165c8dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B12{TRODES}" output
+			(at 121.92 104.14 0)
+			(uuid "8cf689cc-f71d-403c-a15f-d41cf098e583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B13{TRODES}" output
+			(at 121.92 106.68 0)
+			(uuid "f67813a7-6141-4933-995b-70d87e627200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B14{TRODES}" output
+			(at 121.92 109.22 0)
+			(uuid "a86a732c-d938-44da-824d-db777459a237")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B15{TRODES}" output
+			(at 121.92 111.76 0)
+			(uuid "6d765e54-acbe-4fbb-82b3-b068951efb1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ephys-test-module-64"
+				(path "/92c20f51-e4c7-4820-8b31-cd4b13901a01"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
