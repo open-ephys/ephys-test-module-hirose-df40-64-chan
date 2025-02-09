@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
-		(rev "A")
+		(rev "B")
 		(company "Open Ephys, Inc.")
 		(comment 1 "Jonathan P. Newman")
 	)
@@ -2886,7 +2886,7 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -2898,7 +2898,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3541,17 +3541,22 @@
 	(bus_alias "TRODES"
 		(members "E_{0}" "E_{1}" "E_{2}" "E_{3}" "E_{4}" "E_{5}" "E_{6}" "E_{7}")
 	)
+	(text "Detect:\nPin 78 to GND"
+		(exclude_from_sim no)
+		(at 63.754 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ec62d99-7a89-427a-ace0-a927de0231f8")
+	)
 	(junction
 		(at 106.68 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04f22786-dfab-40ea-9a19-5e1baf799f79")
-	)
-	(junction
-		(at 71.12 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1292dd47-c86f-4a91-b9a8-526e92a7e52f")
 	)
 	(junction
 		(at 81.28 99.06)
@@ -3624,6 +3629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b2c5cce-10d0-4351-844a-fede6cb2e794")
+	)
+	(junction
+		(at 69.85 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70c5bba2-c757-421a-8b25-e8bf8f9508a1")
 	)
 	(junction
 		(at 97.79 165.1)
@@ -6645,6 +6656,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 127) (xy 63.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72141c38-5765-40cd-b802-4398f03c1b91")
+	)
+	(wire
+		(pts
 			(xy 73.66 55.88) (xy 83.82 55.88)
 		)
 		(stroke
@@ -6682,16 +6703,6 @@
 			(type default)
 		)
 		(uuid "7359378d-169b-4c32-89da-e0f8a878f3b1")
-	)
-	(wire
-		(pts
-			(xy 83.82 127) (xy 71.12 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738c908a-4516-4c01-9725-87e74e67881e")
 	)
 	(wire
 		(pts
@@ -7095,7 +7106,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 127) (xy 63.5 127)
+			(xy 69.85 127) (xy 83.82 127)
 		)
 		(stroke
 			(width 0)
@@ -7472,6 +7483,16 @@
 			(type default)
 		)
 		(uuid "b57f8db1-ed27-4cf4-8b2a-862424ff0843")
+	)
+	(polyline
+		(pts
+			(xy 80.01 125.73) (xy 72.39 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f0948d-9fd2-421f-9b9d-367364ead5ba")
 	)
 	(wire
 		(pts
@@ -9956,7 +9977,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "10129383-906002ALF"
 			(at 81.28 161.29 0)
 			(effects
 				(font
@@ -10187,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Value" "BSE-040-01-X-D-A"
+		(property "Value" "BSE-040-01-F-D-A-TR"
 			(at 90.17 24.13 0)
 			(effects
 				(font
@@ -10583,7 +10604,7 @@
 				)
 			)
 		)
-		(property "Value" "BSE-040-01-X-D-A"
+		(property "Value" "BSE-040-01-F-D-A-TR"
 			(at 195.58 24.13 0)
 			(effects
 				(font
@@ -11657,7 +11678,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 71.12 127 0)
+		(at 69.85 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11666,7 +11687,7 @@
 		(fields_autoplaced yes)
 		(uuid "b33413e5-a053-47f2-86fd-46456a6842e6")
 		(property "Reference" "#FLG01"
-			(at 71.12 125.095 0)
+			(at 69.85 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +11696,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 71.12 121.92 0)
+			(at 69.85 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,7 +11704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 127 0)
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11692,7 +11713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 127 0)
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +11722,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 127 0)
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

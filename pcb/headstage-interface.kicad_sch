@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
-		(rev "A")
+		(rev "B")
 		(company "Open Ephys, Inc.")
 		(comment 1 "Jonathan P. Newman")
 	)
@@ -2537,7 +2537,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.302 2.032) (xy -3.302 3.048)
+						(xy -3.302 2.032) (xy -3.302 1.016)
 					)
 					(stroke
 						(width 0)
@@ -2549,7 +2549,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.302 2.032) (xy -3.302 1.016)
+						(xy -3.302 2.032) (xy -3.302 3.048)
 					)
 					(stroke
 						(width 0)
@@ -9358,7 +9358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 158.75 63.5 0)
 			(effects
 				(font
@@ -9385,7 +9385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "NREC002SABC-M30RC"
+		(property "Part No." "reflection symmetry"
 			(at 158.75 63.5 0)
 			(effects
 				(font
