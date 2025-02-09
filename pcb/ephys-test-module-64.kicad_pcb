@@ -458,7 +458,7 @@
 		(descr "surface-mounted straight pin header, 1x02, 2.54mm pitch, single row, style 2 (pin 1 right)")
 		(tags "Surface mounted pin header SMD 1x02 2.54mm single row style2 pin1 right")
 		(property "Reference" "JP1"
-			(at 0 -3.6 -90)
+			(at 2.7 1.55 0)
 			(layer "F.SilkS")
 			(uuid "5b8c69a2-d30e-431a-9e91-2c1bcdfead07")
 			(effects
