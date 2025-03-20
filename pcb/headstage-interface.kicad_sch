@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "12b6b96d-db91-4f20-a7aa-78c85fa5a74a")
@@ -108,6 +108,206 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2537,7 +2737,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.302 2.032) (xy -3.302 1.016)
+						(xy -3.302 2.032) (xy -3.302 3.048)
 					)
 					(stroke
 						(width 0)
@@ -2549,7 +2749,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.302 2.032) (xy -3.302 3.048)
+						(xy -3.302 2.032) (xy -3.302 1.016)
 					)
 					(stroke
 						(width 0)
@@ -2715,156 +2915,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2978,6 +3028,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abd24f3d-385a-45e3-9e0f-bec8c8f64606")
+	)
+	(junction
+		(at 170.18 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af9a48f3-adf5-43e2-a13a-0ebbfb9c8fbf")
 	)
 	(no_connect
 		(at 228.6 134.62)
@@ -4909,16 +4965,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 63.5) (xy 168.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283075ff-662d-481d-8c0c-b9f09b881340")
-	)
-	(wire
-		(pts
 			(xy 236.22 73.66) (xy 243.84 73.66)
 		)
 		(stroke
@@ -5269,13 +5315,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 168.91 66.04)
+			(xy 165.1 58.42) (xy 170.18 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cd43a93-767a-4744-9c5b-c959a7b39612")
+		(uuid "4e28fa53-f15c-4a11-a4b6-9df4dad26ed9")
 	)
 	(wire
 		(pts
@@ -5506,6 +5552,16 @@
 			(type default)
 		)
 		(uuid "5d1e0374-5e2d-4407-83c1-1af565e080c5")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9a9ece-d4a3-427a-ab89-44b5e3d9345a")
 	)
 	(bus
 		(pts
@@ -6639,6 +6695,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 60.96) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c771e9-2a9e-4b58-8edd-a1f53dd8da72")
+	)
+	(wire
+		(pts
 			(xy 59.69 125.73) (xy 73.66 125.73)
 		)
 		(stroke
@@ -6926,6 +6992,16 @@
 			(type default)
 		)
 		(uuid "ef43ca1b-53f7-4a4b-bd40-eff25d0c4c9a")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f177d196-7687-46cc-805e-7507879888af")
 	)
 	(wire
 		(pts
@@ -7527,6 +7603,16 @@
 		)
 		(uuid "3349f015-2edf-4b27-9047-e33479025100")
 	)
+	(label "REF"
+		(at 152.4 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "343d0765-6c00-4fe5-b1b1-58fae1efa237")
+	)
 	(label "B3.E_{1}"
 		(at 222.25 127 0)
 		(effects
@@ -7886,16 +7972,6 @@
 			(justify right bottom)
 		)
 		(uuid "66459115-2b79-44c7-ae68-3e4ab678f800")
-	)
-	(label "REF"
-		(at 153.67 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67368192-25bd-42b2-b8f6-81ce07d36e13")
 	)
 	(label "B0.E_{7}"
 		(at 222.25 73.66 0)
@@ -8997,6 +9073,16 @@
 		)
 		(uuid "e2e57ce0-43e7-4e57-bb2a-2e3d9fedd637")
 	)
+	(label "REF"
+		(at 152.4 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e30f312a-20b4-4d3c-ac47-9b1df950843b")
+	)
 	(label "E11"
 		(at 86.36 69.85 0)
 		(effects
@@ -9334,91 +9420,6 @@
 		(uuid "fe68f134-76c5-4d56-b839-396267c616ab")
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 158.75 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0160d7fe-8af6-4bf7-b1da-73cc6d61a507")
-		(property "Reference" "JP1"
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 158.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "reflection symmetry"
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f246c5b5-f5a9-4f0b-8a27-0b672637393a")
-		)
-		(pin "2"
-			(uuid "ddc1abca-6dc0-4f10-9657-087f66a933df")
-		)
-		(instances
-			(project "ephys-test-module-64"
-				(path "/92c20f51-e4c7-4820-8b31-cd4b13901a01/e1ebfc8d-2966-428b-887c-7237de59cbe3"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 154.94 101.6 0)
 		(unit 1)
@@ -9645,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -9958,6 +9959,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 157.48 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86245fb4-a46e-40da-934d-eb0281557792")
+		(property "Reference" "J4"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Odd_Even"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD"
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3723971-7c53-41dc-95c7-d7e9c98a35e4")
+		)
+		(pin "3"
+			(uuid "9d1b7e30-9845-4798-a6b6-0e38c94db709")
+		)
+		(pin "2"
+			(uuid "9e9066d2-9973-4535-82cc-b4937c82891b")
+		)
+		(pin "4"
+			(uuid "9901a88d-4878-4f72-b066-be6b6b8e3ac0")
+		)
+		(instances
+			(project ""
+				(path "/92c20f51-e4c7-4820-8b31-cd4b13901a01/e1ebfc8d-2966-428b-887c-7237de59cbe3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 101.6 0)
 		(mirror y)
@@ -10053,7 +10128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
 			(at 170.18 132.08 0)
 			(effects
 				(font
@@ -10130,7 +10205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
 			(at 163.83 97.79 0)
 			(effects
 				(font
@@ -10471,7 +10546,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 66.04 0)
+		(at 170.18 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10480,7 +10555,7 @@
 		(fields_autoplaced yes)
 		(uuid "dadeee61-8c02-42f8-aa79-95b12c9ed627")
 		(property "Reference" "#PWR018"
-			(at 168.91 72.39 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 71.12 0)
+			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,7 +10572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 66.04 0)
+			(at 170.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 66.04 0)
+			(at 170.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 66.04 0)
+			(at 170.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10563,7 +10638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
 			(at 180.34 123.19 0)
 			(effects
 				(font
