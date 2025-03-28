@@ -327,11 +327,50 @@
 				)
 			)
 		)
+		(property "OEPSPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d1cb7f5-a126-4a2f-82a7-ccfaaed0cc00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8107c982-fe40-4638-9e52-fe0240af6ce3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41961b9d-361a-4747-b3ed-1e58c5579ba1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/30cbadf6-f4fb-48dc-b99c-8d04949e31e7")
 		(sheetname "/Headstage Interface/")
 		(sheetfile "headstage-interface.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -497,11 +536,50 @@
 				)
 			)
 		)
+		(property "OEPSPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00ba1908-638f-4921-ac15-b09f89f4a18f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2aba19fa-9675-4122-b982-aca6f57de3f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeafaf42-b194-42f7-b16e-efeea400e325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/98b273dd-00c5-465e-b254-7e16cd000222")
 		(sheetname "/Headstage Interface/")
 		(sheetfile "headstage-interface.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -650,6 +728,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070099"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75bb8d72-2865-4954-93fa-e93182b63be3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "M20-8760242"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b18bbd-c22f-465e-afd2-51bfe1915ee4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   HEADER SMD 2x2POS 2.54MM   [M20-8760242] [SMD]"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b59a539e-42e1-4b53-a815-0118ec5cad64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1100,6 +1217,45 @@
 				)
 			)
 		)
+		(property "MPN" "CRCW04021K00FKED"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68154c0f-39b1-4beb-84a8-51640fcb4636")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS020027"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "120bb7e5-0f16-418e-8888-7a21739a84a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13d5773e-9ec3-4775-9931-1aba59808fa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e43c68be-319e-4e0b-b734-084821eb03fc/855fa701-4390-4be0-a2eb-ae7bb87320d6")
 		(sheetname "/Test Signal Interface/")
@@ -1315,11 +1471,50 @@
 				)
 			)
 		)
+		(property "OEPSPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49fb45f7-efcb-4736-a600-1a6ebdf21820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5db4c581-1fb2-4010-98bb-daaf5648df2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd63eebc-1d63-4324-96ba-4a4b09de6fd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/963d27ae-faa1-4649-8afa-7e814d77185d")
 		(sheetname "/Headstage Interface/")
 		(sheetfile "headstage-interface.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -1491,6 +1686,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa2757d9-6901-424f-bd46-c15809c1a4a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CRCW04021K00FKED"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0897f21-b4d1-413b-9c5e-28104fb4aa5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS020027"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24a04da2-065e-41a7-a2d6-52bb2a317758")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "893c85b1-2939-447a-a02a-b4a204899e07")
 			(effects
 				(font
 					(size 1 1)
@@ -1702,12 +1936,12 @@
 				)
 			)
 		)
-		(property "Part No." "S038S"
+		(property "Tolerance" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55a2f742-13dc-4814-a8b5-b5739992171f")
+			(uuid "65f038d9-d111-4920-97dc-7b0831bdad5a")
 			(effects
 				(font
 					(size 1 1)
@@ -1715,12 +1949,38 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "S038S"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65f038d9-d111-4920-97dc-7b0831bdad5a")
+			(uuid "ed9f9d38-f0bf-44a0-80c6-1196ccbd35e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070102"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "664a9bb6-7a82-4dc1-be39-c60a47dfb9bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   LASER DIODE SOCKET FOR Ø3.8 MM   [S038S] [SMD]"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b3b913e-96cf-4767-817e-1cc01f63a6ee")
 			(effects
 				(font
 					(size 1 1)
@@ -2501,12 +2761,12 @@
 				)
 			)
 		)
-		(property "Part No." "DF40C(2.0)-70DS-0.4V(51)"
+		(property "Tolerance" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af6c13a7-458e-41d0-a75e-ac4551631a4d")
+			(uuid "e4517e36-b3eb-4b0f-adf9-55db438d627c")
 			(effects
 				(font
 					(size 1 1)
@@ -2514,12 +2774,38 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "DF40C(2.0)-70DS-0.4V(51)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4517e36-b3eb-4b0f-adf9-55db438d627c")
+			(uuid "61948ceb-79ce-4e86-a5cf-ff0d90a1de27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070090"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dc77b34-cadc-4f0d-9d2d-b6f98a81da7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 70POS GOLD   [DF40C(2.0)-70DS-0.4V(51)] [SMD]"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8807e77-42eb-4f30-b06b-f663aa2ba1c7")
 			(effects
 				(font
 					(size 1 1)
@@ -6520,6 +6806,45 @@
 				)
 			)
 		)
+		(property "MPN" "CRCW04021K00FKED"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "508b3c93-1753-4764-85e0-8c12fa51e8c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS020027"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71071f49-717a-4a43-94a9-029666cabe95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2049d3b9-da46-482e-b6dc-ea2be69b3332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e43c68be-319e-4e0b-b734-084821eb03fc/77d259f2-d0dd-46b1-af2e-dd8589ede58a")
 		(sheetname "/Test Signal Interface/")
@@ -6738,12 +7063,12 @@
 				)
 			)
 		)
-		(property "Part No." ""
+		(property "Tolerance" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ff6a74e-7421-4411-b971-d39e084a8bac")
+			(uuid "b8d7c3aa-5c35-445a-ad2e-d4c158f0bc3b")
 			(effects
 				(font
 					(size 1 1)
@@ -6751,12 +7076,38 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "OEPSPN" "n.a."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8d7c3aa-5c35-445a-ad2e-d4c158f0bc3b")
+			(uuid "d9e93001-2398-4c7d-bab0-cc5f5094b8ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f23db18-f6b7-4eaa-a39b-509ea29c2c74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b46eceec-eeff-4c44-b860-a3a80248c3fb")
 			(effects
 				(font
 					(size 1 1)
@@ -8161,12 +8512,12 @@
 				)
 			)
 		)
-		(property "Part No." "AT24C64D-SSHM-T"
+		(property "Tolerance" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "768b1ea6-5da0-464b-b80a-5d8a1df6ec15")
+			(uuid "22ea24f3-6714-4120-a6bb-a14c2c4984c8")
 			(effects
 				(font
 					(size 1 1)
@@ -8174,12 +8525,38 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "AT24C64D-SSHM-T"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22ea24f3-6714-4120-a6bb-a14c2c4984c8")
+			(uuid "0edfc315-c918-43db-af3f-c53ebf3e20d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS080150"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "222d1736-2ab1-440d-8eff-6a38ea925e48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "IC:   EEPROM 64KBIT I2C   [24CW640T-I/CS0668] [8-SOIC]"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9338fffb-36f4-4e6b-b170-6165f59ff100")
 			(effects
 				(font
 					(size 1 1)
@@ -8519,6 +8896,45 @@
 				)
 			)
 		)
+		(property "MPN" "CRCW04021K00FKED"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f42064a-f749-4e1c-a7fe-c9fee879a19d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS020027"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5afa90a4-25f2-4f55-9d91-fe877b682195")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecf1a001-9948-4c99-b6e0-0051d4023bf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e43c68be-319e-4e0b-b734-084821eb03fc/892bafc3-98fc-4ee6-9fe9-83469eb761df")
 		(sheetname "/Test Signal Interface/")
@@ -8723,12 +9139,12 @@
 				)
 			)
 		)
-		(property "Part No." "S7060R"
+		(property "Tolerance" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e9cae21-2858-4939-9725-7f398ec821d5")
+			(uuid "e71c1a64-23a2-4462-889e-2309c4fb4cda")
 			(effects
 				(font
 					(size 1 1)
@@ -8736,12 +9152,38 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "S7060R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e71c1a64-23a2-4462-889e-2309c4fb4cda")
+			(uuid "88861f9e-eec7-4208-accb-31e9c2687bff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070101"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b44f7e08-ba70-4673-b600-534b793b33f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   LASER DIODE SOCKET FOR Ø5.6 MM   [S7060R] [SMD]"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "645b6c72-b90d-4b5f-ac5f-ef1ffee30f78")
 			(effects
 				(font
 					(size 1 1)
@@ -8887,7 +9329,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8957,6 +9399,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "70e2e72b-8032-4eb8-8591-baf74b9335af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C1005X5R1V104K050BB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5e7eee7-08b7-4b5c-b3dc-c8fdadf3ea87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS010066"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb385d9a-e229-4beb-8d1e-600c3ad49810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" "CAPACITOR:   SMD CER 0402 100nF 35V ±10% X5R    [C1005X5R1V104K050BB] [SMD]"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c90b749c-d340-4d82-9f13-3440327445de")
 			(effects
 				(font
 					(size 1 1)
@@ -9179,11 +9660,50 @@
 				)
 			)
 		)
+		(property "OEPSPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c779f2d6-4ef3-49d7-b26e-e726bb7d9508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acdd3cca-f64c-4d8b-91db-ba33495794f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27454033-fb14-41d8-928a-9772f21a8e02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/f21b931a-020d-4f8f-b65d-cd227834aeed")
 		(sheetname "/Headstage Interface/")
 		(sheetfile "headstage-interface.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -9353,12 +9873,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." "BSE-040-01-X-D-A"
+		(property "Tolerance" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "da6e42f3-706e-4a24-a9b1-74bf642531fc")
+			(uuid "c25b4ee2-027f-447e-acde-43a21aa9693e")
 			(effects
 				(font
 					(size 1 1)
@@ -9367,12 +9887,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "BSE-040-01-X-D-A"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c25b4ee2-027f-447e-acde-43a21aa9693e")
+			(uuid "a0d23096-d79f-4edd-9f95-a31fb2d2405e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPSPN" "OEPS070100"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6d7b7de2-e33e-4367-b78a-22aca32afc5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 80POS SMD GOLD   [BSE-040-01-F-D-A-TR] [SMD]"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "356b8a7f-7735-4630-be9b-cc4ad86f4551")
 			(effects
 				(font
 					(size 1 1)
@@ -10380,12 +10928,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." "BSE-040-01-X-D-A"
+		(property "Tolerance" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ff098027-9ca4-4724-aedc-fea1cd24ec21")
+			(uuid "822a60bd-6fae-43e8-b22f-f65dc2ca4b75")
 			(effects
 				(font
 					(size 1 1)
@@ -10394,12 +10942,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "BSE-040-01-X-D-A"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "822a60bd-6fae-43e8-b22f-f65dc2ca4b75")
+			(uuid "0916f5d8-c9b3-43cc-a815-856dbf094efe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPSPN" "OEPS070100"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "13f5e59f-dffa-4c1b-962b-a2fc5cbc8a47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 80POS SMD GOLD   [BSE-040-01-F-D-A-TR] [SMD]"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "46714153-86cc-42f7-8cef-c3cb778170dc")
 			(effects
 				(font
 					(size 1 1)
