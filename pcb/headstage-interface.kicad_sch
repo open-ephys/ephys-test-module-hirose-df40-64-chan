@@ -9624,7 +9624,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "30cbadf6-f4fb-48dc-b99c-8d04949e31e7")
@@ -9680,6 +9680,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "n.a."
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9747,7 +9771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "S7060R"
+		(property "Tolerance" ""
 			(at 157.48 137.16 0)
 			(effects
 				(font
@@ -9756,13 +9780,30 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "S7060R"
 			(at 157.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   LASER DIODE SOCKET FOR Ø5.6 MM   [S7060R] [SMD]"
+			(at 157.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS070101"
+			(at 157.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -9836,7 +9877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "S038S"
+		(property "Tolerance" ""
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -9845,13 +9886,30 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "S038S"
 			(at 157.48 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   LASER DIODE SOCKET FOR Ø3.8 MM   [S038S] [SMD]"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS070102"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -9943,6 +10001,32 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW04021K00FKED"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020027"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3964f46-e653-4e7f-84fd-12ca22dfd32e")
 		)
@@ -10009,6 +10093,32 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "M20-8760242"
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   HEADER SMD 2x2POS 2.54MM   [M20-8760242] [SMD]"
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS070099"
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10105,7 +10215,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "963d27ae-faa1-4649-8afa-7e814d77185d")
@@ -10164,6 +10274,30 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "n.a."
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "n.a."
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef4e5581-a2a4-4ea4-89cc-df1e251bf385")
 		)
@@ -10182,7 +10316,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "98b273dd-00c5-465e-b254-7e16cd000222")
@@ -10239,6 +10373,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "n.a."
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10307,7 +10465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "DF40C(2.0)-70DS-0.4V(51)"
+		(property "Tolerance" ""
 			(at 78.74 95.25 0)
 			(effects
 				(font
@@ -10316,13 +10474,30 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "DF40C(2.0)-70DS-0.4V(51)"
 			(at 78.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 70POS GOLD   [DF40C(2.0)-70DS-0.4V(51)] [SMD]"
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS070090"
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "48"
@@ -10615,7 +10790,7 @@
 		(at 175.26 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "f21b931a-020d-4f8f-b65d-cd227834aeed")
@@ -10672,6 +10847,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "n.a."
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "n.a."
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
