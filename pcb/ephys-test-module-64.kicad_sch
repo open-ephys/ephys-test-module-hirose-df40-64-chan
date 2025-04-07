@@ -319,7 +319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Tolerance" ""
 			(at 271.78 165.1 0)
 			(effects
 				(font
@@ -328,13 +328,28 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "MPN" "n.a."
 			(at 271.78 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "OEPS DESC" ""
+			(at 271.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "n.a."
+			(at 271.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
