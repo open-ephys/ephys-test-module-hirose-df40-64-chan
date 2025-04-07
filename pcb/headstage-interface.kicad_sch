@@ -8,7 +8,6 @@
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
 		(rev "B")
 		(company "Open Ephys, Inc.")
-		(comment 1 "Jonathan P. Newman")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -9742,6 +9741,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "open-ephys:THORLABS_S7060R_5.6mm-TO-Can-LD-socket"
@@ -9804,6 +9804,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -9848,6 +9849,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "open-ephys:THORLABS_S038S_3.8mm-TO-Can-LD-socket"
@@ -9910,6 +9912,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -10025,6 +10028,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10066,6 +10070,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD"
@@ -10119,6 +10124,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10436,6 +10442,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "jonnew:HIROSE_DF40C(2.0)-70DS-0.4V(51)"
@@ -10498,6 +10505,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "48"

@@ -8,7 +8,6 @@
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
 		(rev "B")
 		(company "Open Ephys, Inc.")
-		(comment 1 "Jonathan P. Newman")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x40_Odd_Even"
@@ -9702,6 +9701,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "jonnew:SAMTEC_BSE-040-01-X-D-A"
@@ -9749,7 +9749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSE-040-01-X-D-A"
+		(property "MPN" "BSE-040-01-F-D-A-TR"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -9773,6 +9773,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10115,6 +10116,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "jonnew:SAMTEC_BSE-040-01-X-D-A"
@@ -10162,7 +10164,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSE-040-01-X-D-A"
+		(property "MPN" "BSE-040-01-F-D-A-TR"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -10186,6 +10188,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10660,6 +10663,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10731,6 +10735,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10771,6 +10776,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10842,6 +10848,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10882,6 +10889,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10953,6 +10961,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11129,6 +11138,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -11176,7 +11186,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPS DESC" "IC:   EEPROM 64KBIT I2C   [24CW640T-I/CS0668] [8-SOIC]"
+		(property "OEPS DESC" "IC:   EEPROM 64KBIT I2C   [AT24C64D-SSHM-T] [8-SOIC]"
 			(at 107.95 172.72 0)
 			(effects
 				(font
@@ -11191,6 +11201,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11583,6 +11594,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -11663,6 +11675,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

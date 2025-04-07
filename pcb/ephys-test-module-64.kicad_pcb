@@ -8551,7 +8551,7 @@
 				)
 			)
 		)
-		(property "OEPS DESC" "IC:   EEPROM 64KBIT I2C   [24CW640T-I/CS0668] [8-SOIC]"
+		(property "OEPS DESC" "IC:   EEPROM 64KBIT I2C   [AT24C64D-SSHM-T] [8-SOIC]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9887,7 +9887,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "BSE-040-01-X-D-A"
+		(property "MPN" "BSE-040-01-F-D-A-TR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10942,7 +10942,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "BSE-040-01-X-D-A"
+		(property "MPN" "BSE-040-01-F-D-A-TR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
