@@ -9741,7 +9741,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "open-ephys:THORLABS_S7060R_5.6mm-TO-Can-LD-socket"
@@ -9849,7 +9848,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "open-ephys:THORLABS_S038S_3.8mm-TO-Can-LD-socket"
@@ -10442,7 +10440,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "jonnew:HIROSE_DF40C(2.0)-70DS-0.4V(51)"

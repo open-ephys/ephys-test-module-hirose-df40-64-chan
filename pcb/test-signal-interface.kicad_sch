@@ -9701,7 +9701,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "jonnew:SAMTEC_BSE-040-01-X-D-A"
@@ -10116,7 +10115,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "jonnew:SAMTEC_BSE-040-01-X-D-A"
@@ -11138,7 +11136,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
