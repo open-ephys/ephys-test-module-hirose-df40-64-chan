@@ -8,7 +8,7 @@
 /////////////// Data to be written to EEPROM /////////////////
 const char magic[10] = "open-ephys";
 const char name[20] = "Hirose DF40 64 Ch.  "; // pad out to 20 char
-const char pcb_rev = 'A';
+const char pcb_rev = 'B';
 const uint8_t num_chan = 64;
 const uint8_t channel_map[64] = // Taken from PCB schematic
    {63, 95, 62, 94, 61, 93, 60, 92, 59, 91, 58, 90, 57, 89, 56, 88,
