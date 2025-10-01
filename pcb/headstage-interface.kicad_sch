@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
-		(rev "B")
+		(rev "C")
 		(company "Open Ephys, Inc.")
 	)
 	(lib_symbols
@@ -3017,6 +3017,12 @@
 		)
 	)
 	(junction
+		(at 148.59 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5b9a36-f4e8-4e5f-b0e8-c0e26308030e")
+	)
+	(junction
 		(at 167.64 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4631,6 +4637,16 @@
 			(type default)
 		)
 		(uuid "0ce398a3-f037-4e4b-925a-25a4d1d7f6bd")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf56509-8799-496c-b3ba-f8150cfd7592")
 	)
 	(wire
 		(pts
@@ -6774,6 +6790,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d589bd-235b-440d-ae9b-21e688be0b63")
+	)
+	(wire
+		(pts
 			(xy 59.69 74.93) (xy 73.66 74.93)
 		)
 		(stroke
@@ -6964,6 +6990,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe6e14f-f3a1-4941-993e-0cdca02f7065")
+	)
+	(wire
+		(pts
 			(xy 236.22 63.5) (xy 243.84 63.5)
 		)
 		(stroke
@@ -6971,6 +7007,16 @@
 			(type default)
 		)
 		(uuid "ee1a9000-742a-48ec-a0f5-a18c761ca62e")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeaa18ce-dcf7-45c4-a160-d72631c5de1c")
 	)
 	(wire
 		(pts
@@ -7601,16 +7647,6 @@
 			(justify right bottom)
 		)
 		(uuid "3349f015-2edf-4b27-9047-e33479025100")
-	)
-	(label "REF"
-		(at 152.4 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "343d0765-6c00-4fe5-b1b1-58fae1efa237")
 	)
 	(label "B3.E_{1}"
 		(at 222.25 127 0)
@@ -9072,16 +9108,6 @@
 		)
 		(uuid "e2e57ce0-43e7-4e57-bb2a-2e3d9fedd637")
 	)
-	(label "REF"
-		(at 152.4 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e30f312a-20b4-4d3c-ac47-9b1df950843b")
-	)
 	(label "E11"
 		(at 86.36 69.85 0)
 		(effects
@@ -9241,6 +9267,28 @@
 			(justify right bottom)
 		)
 		(uuid "fe64c818-ed3a-4fd7-b5da-e6b65acdbc81")
+	)
+	(global_label "REF"
+		(shape passive)
+		(at 142.24 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25304065-dcdd-478f-8d81-68bcf5fe70fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.8585 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "B4{TRODES}"
 		(shape input)
