@@ -40,9 +40,8 @@ add_executable(hirose-64-eeprom main.c )
 pico_set_program_name(hirose-64-eeprom "hirose-64-eeprom")
 pico_set_program_version(hirose-64-eeprom "0.1")
 
-# Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(hirose-64-eeprom 0)
-pico_enable_stdio_usb(hirose-64-eeprom 0)
+# Enable output over USB
+pico_enable_stdio_usb(hirose-64-eeprom 1)
 
 # Add the standard library to the build
 target_link_libraries(hirose-64-eeprom
@@ -54,7 +53,7 @@ target_include_directories(hirose-64-eeprom PRIVATE
 )
 
 # Add any user requested libraries
-target_link_libraries(hirose-64-eeprom 
+target_link_libraries(hirose-64-eeprom
         hardware_i2c
         pico_bootsel_via_double_reset
         )
