@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
-		(rev "C")
+		(rev "D")
 		(company "Open Ephys, Inc.")
 	)
 	(lib_symbols
