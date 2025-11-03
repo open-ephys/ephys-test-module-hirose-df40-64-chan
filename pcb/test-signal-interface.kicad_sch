@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
-		(rev "C")
+		(rev "D")
 		(company "Open Ephys, Inc.")
 	)
 	(lib_symbols
@@ -10640,7 +10640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 60.96 162.56 0)
 			(effects
 				(font
@@ -10753,7 +10753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 69.85 162.56 0)
 			(effects
 				(font
@@ -10866,7 +10866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 78.74 162.56 0)
 			(effects
 				(font
@@ -11561,15 +11561,6 @@
 				(hide yes)
 			)
 		)
-		(property "TempCo" "X7R"
-			(at 115.57 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Voltage" ""
 			(at 115.57 162.56 0)
 			(effects
@@ -11579,7 +11570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "10%"
 			(at 115.57 162.56 0)
 			(effects
 				(font
@@ -11608,6 +11599,15 @@
 		)
 		(property "OEPSPN" "OEPS010066"
 			(at 115.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp. Co." "X5R"
+			(at 115.57 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
