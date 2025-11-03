@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
-%TF.CreationDate,2025-10-23T14:53:04-04:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.5*%
+%TF.CreationDate,2025-11-03T13:17:14-05:00*%
 %TF.ProjectId,ephys-test-module-64,65706879-732d-4746-9573-742d6d6f6475,D*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.3) date 2025-10-23 14:53:04*
+G04 Created by KiCad (PCBNEW 9.0.5) date 2025-11-03 13:17:14*
 %MOMM*%
 %LPD*%
 G01*
@@ -38,17 +38,14 @@ G04 Aperture macros list end*
 %ADD16R,2.273000X0.410000*%
 G04 APERTURE END LIST*
 D10*
-%TO.C,TP3*%
-X153000000Y-80000000D03*
-%TD*%
-%TO.C,TP4*%
-X163000000Y-80000000D03*
-%TD*%
 %TO.C,TP1*%
 X153000000Y-134000000D03*
 %TD*%
 %TO.C,TP2*%
 X163000000Y-134000000D03*
+%TD*%
+%TO.C,TP4*%
+X163000000Y-80000000D03*
 %TD*%
 D11*
 %TO.C,LD1*%
@@ -63,6 +60,10 @@ X163000000Y-87000000D03*
 D14*
 X164000000Y-86000000D03*
 X163000000Y-85000000D03*
+%TD*%
+D10*
+%TO.C,TP3*%
+X153000000Y-80000000D03*
 %TD*%
 D15*
 %TO.C,J2*%

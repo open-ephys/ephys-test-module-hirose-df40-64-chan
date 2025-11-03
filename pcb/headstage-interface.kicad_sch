@@ -10831,6 +10831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "5%"
+			(at 68.58 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "5a19d877-bb3f-4166-a284-820f23e182ae")
 		)
@@ -11157,6 +11166,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OEPS DESC" ""
@@ -11173,6 +11183,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11241,6 +11252,15 @@
 			)
 		)
 		(property "MPN" "YC248-JR-07220KL"
+			(at 58.42 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
 			(at 58.42 127 90)
 			(effects
 				(font
@@ -11582,6 +11602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "5%"
+			(at 110.49 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "811f756e-1767-4883-a411-f0a39746aa7b")
 		)
@@ -11814,6 +11843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "5%"
+			(at 120.65 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "6061b66b-4c98-4709-bb4e-bd906e05abdc")
 		)
@@ -11889,13 +11927,12 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Odd_Even"
+		(property "Value" "M20-8760242"
 			(at 187.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD"
@@ -12102,6 +12139,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "5%"
+			(at 120.65 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "35aaacdd-891b-4c2b-b1ba-f4da0c37c1b7")
 		)
@@ -12224,12 +12270,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" ""
 			(at 204.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OEPS DESC" ""
@@ -12238,14 +12285,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" ""
 			(at 204.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12325,12 +12374,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" ""
 			(at 198.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OEPS DESC" ""
@@ -12341,7 +12391,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" ""
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -12415,6 +12465,15 @@
 			)
 		)
 		(property "MPN" "YC248-JR-07220KL"
+			(at 68.58 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
 			(at 68.58 66.04 90)
 			(effects
 				(font
@@ -12534,6 +12593,15 @@
 			)
 		)
 		(property "MPN" "YC248-JR-07220KL"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
 			(at 58.42 86.36 90)
 			(effects
 				(font
@@ -12970,6 +13038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "5%"
+			(at 110.49 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "af7a5799-94ec-42c1-b69f-579411edd0ab")
 		)
@@ -13157,12 +13234,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" ""
 			(at 204.47 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OEPS DESC" ""
@@ -13171,14 +13249,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" ""
 			(at 204.47 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
