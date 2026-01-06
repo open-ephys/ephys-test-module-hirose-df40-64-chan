@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
-		(rev "D")
+		(rev "E")
 		(company "Open Ephys, Inc.")
 	)
 	(lib_symbols
@@ -3433,8 +3433,12 @@
 		(uuid "fb6660dc-882a-4c30-a4b4-77c2c3cbbeee")
 	)
 	(no_connect
+		(at 201.93 124.46)
+		(uuid "00b7a545-f315-428c-9e66-be9842643e8a")
+	)
+	(no_connect
 		(at 201.93 127)
-		(uuid "37ab5c10-3bea-4afd-924a-67767de61e11")
+		(uuid "20b68d06-da12-4f3e-ab0a-b2fd5d11268e")
 	)
 	(no_connect
 		(at 189.23 127)
@@ -7826,16 +7830,6 @@
 		)
 		(uuid "f6befc2a-dcf7-48d0-9b67-2e3d87a8f824")
 	)
-	(wire
-		(pts
-			(xy 201.93 124.46) (xy 212.09 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98af63e-be48-4181-9b5e-a8fd865dbace")
-	)
 	(bus
 		(pts
 			(xy 71.12 43.18) (xy 71.12 45.72)
@@ -9285,28 +9279,6 @@
 			(justify right bottom)
 		)
 		(uuid "fed85a1b-05d4-4d93-8c13-85db3d2588c1")
-	)
-	(global_label "REF"
-		(shape passive)
-		(at 212.09 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc871142-daff-4e69-9d44-f60ba87fcf32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.4715 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "B0{TRODES}"
 		(shape output)
