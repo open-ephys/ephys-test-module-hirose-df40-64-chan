@@ -9669,15 +9669,6 @@
 				(hide yes)
 			)
 		)
-		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 80POS SMD GOLD   [BSE-040-01-F-D-A-TR] [SMD]"
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "OEPSPN" "OEPS070100"
 			(at 91.44 76.2 0)
 			(effects
@@ -10075,15 +10066,6 @@
 			)
 		)
 		(property "MPN" "BSE-040-01-F-D-A-TR"
-			(at 196.85 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS DESC" "CONNECTOR:   CONN RCPT 80POS SMD GOLD   [BSE-040-01-F-D-A-TR] [SMD]"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -10630,15 +10612,6 @@
 				(hide yes)
 			)
 		)
-		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "OEPSPN" "OEPS020027"
 			(at 60.96 162.56 0)
 			(effects
@@ -10743,15 +10716,6 @@
 				(hide yes)
 			)
 		)
-		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
-			(at 69.85 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "OEPSPN" "OEPS020027"
 			(at 69.85 162.56 0)
 			(effects
@@ -10848,15 +10812,6 @@
 			)
 		)
 		(property "MPN" "CRCW04021K00FKED"
-			(at 78.74 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS DESC" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 78.74 162.56 0)
 			(effects
 				(font
@@ -11087,15 +11042,6 @@
 			)
 		)
 		(property "MPN" "AT24C64D-SSHM-T"
-			(at 107.95 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS DESC" "IC:   EEPROM 64KBIT I2C   [AT24C64D-SSHM-T] [8-SOIC]"
 			(at 107.95 172.72 0)
 			(effects
 				(font
@@ -11552,15 +11498,6 @@
 			)
 		)
 		(property "MPN" "C1005X5R1V104K050BB"
-			(at 115.57 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS DESC" "CAPACITOR:   SMD CER 0402 100nF 35V ±10% X5R    [C1005X5R1V104K050BB] [SMD]"
 			(at 115.57 162.56 0)
 			(effects
 				(font

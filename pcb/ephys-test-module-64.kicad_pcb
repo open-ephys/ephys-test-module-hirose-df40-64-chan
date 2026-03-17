@@ -747,7 +747,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" ""
+		(property "OEPSPN" "OEPS070145"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9542,6 +9542,20 @@
 				(justify mirror)
 			)
 		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cca20b48-de51-4304-86ff-a27844882a17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/892f6b89-31bd-4beb-9edc-169733ffc1d7")
 		(sheetname "/Headstage Interface/")
@@ -11235,6 +11249,20 @@
 				(justify mirror)
 			)
 		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a4bee68b-bfe8-478d-8895-7eb026d94888")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/b01b62ff-e008-4c7f-a326-1bd63db66b70")
 		(sheetname "/Headstage Interface/")
@@ -11588,6 +11616,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "234c0652-d9df-4494-96ec-97a9aef167cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71e6f16e-2775-41a4-be22-d25857269f5d")
 			(effects
 				(font
 					(size 1 1)
@@ -11957,6 +11999,20 @@
 				(justify mirror)
 			)
 		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "18beee6f-ee89-4946-b7da-7406906aaebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/7f72c156-2f19-42a3-980a-94ebc5d3d883")
 		(sheetname "/Headstage Interface/")
@@ -12310,6 +12366,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2814f949-3d6d-4d81-a19f-1b4fa2a25fe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8af62af5-f7b6-495f-bb35-c023830bcdcf")
 			(effects
 				(font
 					(size 1 1)
@@ -12679,6 +12749,20 @@
 				(justify mirror)
 			)
 		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "44446ef8-c26c-445b-9bd0-f0c2f20873a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/e1ebfc8d-2966-428b-887c-7237de59cbe3/647a2360-01a6-4cac-8c8b-c4474f022541")
 		(sheetname "/Headstage Interface/")
@@ -13032,6 +13116,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "06b8e58d-5944-4e1c-b205-d6383a63f127")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f58cf3c8-280a-4658-9ebd-f09f5ae9fe42")
 			(effects
 				(font
 					(size 1 1)
@@ -14448,6 +14546,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ea73c86f-4692-4fe8-b836-2857869f3448")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OEPSPN" "OEPS080203"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f5322976-f004-4447-81d7-6613c136df82")
 			(effects
 				(font
 					(size 1 1)

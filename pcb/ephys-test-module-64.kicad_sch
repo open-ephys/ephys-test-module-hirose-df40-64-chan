@@ -335,14 +335,6 @@
 				)
 			)
 		)
-		(property "OEPS DESC" ""
-			(at 271.78 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "OEPSPN" "n.a."
 			(at 271.78 165.1 0)
 			(effects
