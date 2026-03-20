@@ -8,6 +8,7 @@
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
 		(rev "F")
 		(company "Open Ephys, Inc.")
+		(comment 1 "Jonathan P. Newman")
 	)
 	(lib_symbols
 		(symbol "open-ephys:OEPS-SN"
@@ -333,6 +334,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OEPSPN" "n.a."
@@ -341,6 +343,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances

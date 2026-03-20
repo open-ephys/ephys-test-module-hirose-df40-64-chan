@@ -8,6 +8,7 @@
 		(title "Ephys Test Module - 64 Channel (Hirose DF40C)")
 		(rev "F")
 		(company "Open Ephys, Inc.")
+		(comment 1 "Jonathan P. Newman")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -12138,7 +12139,7 @@
 				)
 			)
 		)
-		(property "Value" "M20-8761042"
+		(property "Value" "M20-8760542"
 			(at 187.96 48.26 0)
 			(effects
 				(font
@@ -12173,7 +12174,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "M20-8761042"
+		(property "MPN" "M20-8760542"
 			(at 186.69 57.15 0)
 			(effects
 				(font
