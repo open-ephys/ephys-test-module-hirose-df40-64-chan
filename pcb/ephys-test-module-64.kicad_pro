@@ -62,6 +62,10 @@
         [
           "silk_over_copper|190345681|118568225|39ea087b-3165-40b2-8dea-55b088921fce|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "silk_overlap|163100000|128700000|786128ac-f355-495a-9990-e9c19756023a|deb5d43f-f35f-4e14-95e3-4cb3bca77b03",
+          ""
         ]
       ],
       "meta": {
@@ -519,7 +523,7 @@
       "idf": "",
       "netlist": "",
       "plot": "manufacturing/gerber/",
-      "pos_files": "",
+      "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -546,14 +550,20 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": true
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
@@ -564,30 +574,54 @@
         },
         {
           "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OEPSPN",
-          "name": "OEPSPN",
-          "show": false
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
         },
         {
           "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Temp. Co.",
+          "name": "Temp. Co.",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "OEPSPN",
+          "name": "OEPSPN",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "MPN",
           "name": "MPN",
           "show": true
@@ -600,26 +634,8 @@
         },
         {
           "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Temp. Co.",
-          "name": "Temp. Co.",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
@@ -627,24 +643,6 @@
           "label": "Datasheet1",
           "name": "Datasheet1",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "OEPS DESC",
-          "name": "OEPS DESC",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
         }
       ],
       "filter_string": "",
@@ -652,7 +650,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "OEPSPN"
+      "sort_field": "Tolerance"
     },
     "connection_grid_size": 50.0,
     "drawing": {

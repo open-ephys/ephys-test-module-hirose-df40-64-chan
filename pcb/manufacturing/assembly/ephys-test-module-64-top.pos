@@ -1,0 +1,15 @@
+### Footprint positions - created on 2026-03-23T12:05:15+0000 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                       Package                                      PosX       PosY       Rot  Side
+C1        100nF                     C_0402_1005Metric                         11.7000    11.3000  -90.0000  top
+J1        DF40C(2.0)-70DS-0.4V(51)  HIROSE_DF40C(2.0)-70DS-0.4V(51)           50.0000    35.0000  -90.0000  top
+J4        M20-8760542               PinHeader_2x05_P2.54mm_Vertical_SMD       85.0000    22.7346    0.0000  top
+LD1       S038S                     THORLABS_S038S_3.8mm-TO-Can-LD-socket     80.0000    11.1000  -90.0000  top
+LD2       S7060R                    THORLABS_S7060R_5.6mm-TO-Can-LD-socket    90.0000    11.1000  -90.0000  top
+R1        1k                        R_0402_1005Metric                         13.9000    15.9000    0.0000  top
+R2        1k                        R_0402_1005Metric                         16.6000    18.2000    0.0000  top
+R3        1k                        R_0402_1005Metric                         15.2000    17.0000    0.0000  top
+U1        AT24C64D-SSHM-T           SOIC-8_3.9x4.9mm_P1.27mm                  15.2000    11.3000   90.0000  top
+## End
