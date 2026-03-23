@@ -1,7 +1,7 @@
 "#","Qty","Reference","Value","Tolerance","Footprint","Temp. Co.","Voltage","DNP","OEPSPN","MPN"
 "1","1","J1","DF40C(2.0)-70DS-0.4V(51)","","jonnew:HIROSE_DF40C(2.0)-70DS-0.4V(51)","","","","OEPS070090","DF40C(2.0)-70DS-0.4V(51)"
 "2","2","J2,J3","BSE-040-01-F-D-A-TR","","jonnew:SAMTEC_BSE-040-01-X-D-A","","","","OEPS070100","BSE-040-01-F-D-A-TR"
-"3","1","J4","M20-8761042","","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD","","","","OEPS070145","M20-8761042"
+"3","1","J4","M20-8760542","","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD","","","","OEPS070145","M20-8760542"
 "4","1","LD1","S038S","","open-ephys:THORLABS_S038S_3.8mm-TO-Can-LD-socket","","","","OEPS070102","S038S"
 "5","1","LD2","S7060R","","open-ephys:THORLABS_S7060R_5.6mm-TO-Can-LD-socket","","","","OEPS070101","S7060R"
 "6","1","U1","AT24C64D-SSHM-T","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","","","","OEPS080150","AT24C64D-SSHM-T"
