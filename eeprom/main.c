@@ -9,7 +9,7 @@
 const char magic[10] = "open-ephys";
 const uint8_t layout_version[2] = {1, 0};
 const char module_name[32] = "Hirose DF40 Module";
-const char pcb_rev = 'D';
+const char pcb_rev = 'F';
 
 typedef struct {
     const char name[32];
