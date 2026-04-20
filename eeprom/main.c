@@ -8,7 +8,7 @@
 /////////////// Data to be written to EEPROM /////////////////
 const char magic[10] = "open-ephys";
 const uint8_t layout_version[2] = {1, 0};
-const char module_name[32] = "Hirose DF40-64";
+const char module_name[32] = "Hirose DF40 64 Ch.";
 const char pcb_rev = 'F';
 
 typedef struct {
@@ -25,8 +25,7 @@ const uint8_t channel_map_64[64] = {
 };
 
 const map_config_t maps[] = {
-    {"Low-profile 64 Ch.", 64, channel_map_64},
-    {"ONIX Ephys 64 Ch.", 64, channel_map_64}
+    {"64 Ch. Low-profile", 64, channel_map_64}
 };
 
 const uint8_t num_maps = sizeof(maps) / sizeof(maps[0]);
